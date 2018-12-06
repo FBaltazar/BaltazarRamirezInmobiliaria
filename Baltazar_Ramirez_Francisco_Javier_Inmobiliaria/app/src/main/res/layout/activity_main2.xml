@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:orientation="vertical"
+    android:background="#3b3838"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Propietario"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="41dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingHorizontal="30dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:text="ID:"
+                android:textSize="19dp"
+                android:textStyle="bold"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ID"
+                android:textColorHint="#fff"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:id="@+id/idp"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingHorizontal="30dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:text="Nombre:"
+                android:textSize="19dp"
+                android:textStyle="bold"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nombre"
+                android:textColorHint="#fff"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:id="@+id/nombrePropietario"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingHorizontal="30dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:text="Domicilio:"
+                android:textSize="19dp"
+                android:textStyle="bold"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Domicilio"
+                android:textColorHint="#fff"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:id="@+id/domicilioPropietario"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingHorizontal="30dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:text="Telefono:"
+                android:textSize="19dp"
+                android:textStyle="bold"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Telefono"
+                android:textColorHint="#fff"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:id="@+id/telefonoPropietario"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="5dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="18dp"
+        android:textStyle="bold"
+        android:text="Limpiar"
+        android:layout_marginLeft="108dp"
+        android:paddingHorizontal="17dp"
+        android:background="@drawable/round"
+        android:textColor="#fff"
+        android:id="@+id/btnLimpiar"
+        />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="5dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Insertar"
+            android:layout_marginLeft="50dp"
+            android:paddingHorizontal="17dp"
+            android:background="@drawable/round"
+            android:textColor="#fff"
+            android:id="@+id/btnInsertar"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Consultar"
+            android:layout_marginLeft="70dp"
+            android:background="@drawable/round"
+            android:textColor="#fff"
+            android:paddingHorizontal="12dp"
+            android:id="@+id/btnConsultar"
+            />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="10dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingHorizontal="30dp"
+        android:padding="3dp"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Actualiar"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/round"
+            android:textColor="#fff"
+            android:paddingHorizontal="12dp"
+            android:id="@+id/btnActualizar"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Eliminar"
+            android:layout_marginLeft="66dp"
+            android:paddingHorizontal="20dp"
+            android:background="@drawable/round"
+            android:textColor="#fff"
+            android:id="@+id/btnEliminar"
+            />
+    </LinearLayout>
+
+</LinearLayout>
